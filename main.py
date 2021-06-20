@@ -1,4 +1,4 @@
-#DO NOT COPY THIS
+
 import os
 import sys
 import time
