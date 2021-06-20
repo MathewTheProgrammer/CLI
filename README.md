@@ -1,2 +1,2 @@
-# CLI
-A CLI repo
+Hello this is a random CLI in python .
+You can copy it
