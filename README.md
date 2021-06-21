@@ -1,3 +1,3 @@
 Hello this is a random CLI in python .
 You can copy it .
-Version-0.3.0-Alpha
+Version-0.4.0-Alpha
