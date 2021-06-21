@@ -18,6 +18,7 @@ while True:
               '          clear\n'
               '          calculator\n'
               '          date\n'
+              '          color\n'
               '          exit')
         command = input('Please enter a command:')
 
