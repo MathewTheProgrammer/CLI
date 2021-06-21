@@ -20,6 +20,8 @@ while True:
               '          calculator\n'
               '          date\n'
               '          color\n'
+              '          calendar\n'
+              '          echo\n'
               '          exit')
         command = input('Please enter a command:')
 
@@ -98,9 +100,14 @@ while True:
         year = int(input('What year:'))
         month = int(input('What month(1,2,3,4,5,6,7,8,9,10,11,12):'))
 
-        mycal = calendar.month(year , month)
+        mycal = calendar.month(year, month)
         print(mycal)
 
+        command = input("Please enter a command:")
+
+    if command == "echo" or command == "Echo":
+        echo = input("echo:")
+        print(echo)
         command = input("Please enter a command:")
 
     if command == 'exit' or command == 'Exit':
